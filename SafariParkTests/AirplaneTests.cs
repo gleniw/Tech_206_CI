@@ -105,5 +105,11 @@ namespace SafariParkTests
             var expected = "Thank you for flying JetsRUs: SafariParkApp.Airplane capacity: 200 passengers: 150 speed: 100 position: 500 altitude: 300.";
             Assert.AreEqual(expected, actual);
         }
+
+        [Test]
+        public void FailingTest()
+        {
+            Assert.Fail();
+        }
     }
 }
